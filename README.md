@@ -105,4 +105,19 @@ public class CardStatementCompositeApplication {
     }
   ]
   ```
-  
+  ## Discovery Service
+ There are two main service discovery patterns: *client‑side discovery* and *server‑side discovery*. This project uses server‑side discovery.
+ 
+ The structure of this pattern:
+ 
+ ![alt text](https://github.com/caingocduong/spring-netflix-oss-microservices/blob/master/server-side-pattern.png)
+ 
+ The client makes a request to a service via a load balancer. The load balancer queries the service registry and routes each request to an available service instance. Service instances are registered and deregistered with the service registry.
+ 
+ The service registry is a key part of service discovery. It is a database containing the network locations of service instances. 
+ 
+ Here, **Netflix Eureka** is a service registry. It provides a REST API for registering service instances
+ 
+ By default, Zuul uses Ribbon(Load Balancer) to look up available services instance (registered with service registry) and routes the request to te service instance.
+ 
+ **Netflix Zuul**-Edge Server Zuul is our gatekeeper to the outside world, not allowing any unauthorized external requests pass through. It uses dynamically allocated ports to avoid port conflicts.
