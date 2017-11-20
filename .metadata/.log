@@ -170,3 +170,661 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.infinitest.eclipse 1 0 2017-10-25 10:48:11.911
 !MESSAGE card-statement-composite Files changed: [E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\api\CardStatementController.class]
+!SESSION 2017-11-20 10:53:36.579 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data E:\spring-netflix-oss-microservices -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-20 10:53:38.183
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2017-11-20 10:53:38.316
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.316
+!MESSAGE Could not read metadata for 'card-service'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'card-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:904)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:735)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2399)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2156)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:464)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.317
+!MESSAGE The project description file (.project) for 'card-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.317
+!MESSAGE Could not read metadata for 'card-statement-composite'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'card-statement-composite' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:904)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:735)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2399)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2156)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:464)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.317
+!MESSAGE The project description file (.project) for 'card-statement-composite' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.317
+!MESSAGE Could not read metadata for 'config-server'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'config-server' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:904)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:735)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2399)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2156)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:464)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.317
+!MESSAGE The project description file (.project) for 'config-server' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.317
+!MESSAGE Could not read metadata for 'discovery'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'discovery' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:904)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:735)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2399)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2156)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:464)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.318
+!MESSAGE The project description file (.project) for 'discovery' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.318
+!MESSAGE Could not read metadata for 'gateway'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'gateway' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:904)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:735)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2399)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2156)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:464)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.318
+!MESSAGE The project description file (.project) for 'gateway' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.318
+!MESSAGE Could not read metadata for 'statement-service'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'statement-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:904)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:735)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2399)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2156)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:464)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2017-11-20 10:53:38.318
+!MESSAGE The project description file (.project) for 'statement-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-11-20 10:53:38.418
+!MESSAGE Both 'org.switchyard.tools.models.switchyard1_0' and 'com.jaspersoft.studio.data.sql.ui' register an extension parser for 'sql'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-11-20 10:53:38.979
+!MESSAGE Enablement expression is missing for descriptor type org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-11-20 10:53:38.986
+!MESSAGE Enablement expression is missing for config provider for org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType
+
+!ENTRY org.eclipse.jface 2 0 2017-11-20 10:53:40.818
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-20 10:53:40.819
+!MESSAGE A conflict occurred for CTRL+SHIFT+M:
+Binding(CTRL+SHIFT+M,
+	ParameterizedCommand(Command(org.junit.tools.handler.GenerateMockClass,Generates a mock-class,
+		Generates a mock-class for the selected class,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c17ebb7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+M,
+	ParameterizedCommand(Command(org.jboss.tools.jmx.ui.navigate.open.mbean,Open MBean,
+		Open an MBean in an MBean editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b867623,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-20 10:53:45.611
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Darren'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 567 2017-11-20 10:54:04.366
+!MESSAGE The project description file (.project) for 'card-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-20 10:54:08.282
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+!SESSION 2017-11-20 10:54:39.450 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data E:\spring-netflix-oss-microservices -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-11-20 10:54:41.166
+!MESSAGE Both 'org.switchyard.tools.models.switchyard1_0' and 'com.jaspersoft.studio.data.sql.ui' register an extension parser for 'sql'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-11-20 10:54:41.723
+!MESSAGE Enablement expression is missing for descriptor type org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-11-20 10:54:41.730
+!MESSAGE Enablement expression is missing for config provider for org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType
+
+!ENTRY org.eclipse.jface 2 0 2017-11-20 10:54:43.352
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-20 10:54:43.352
+!MESSAGE A conflict occurred for CTRL+SHIFT+M:
+Binding(CTRL+SHIFT+M,
+	ParameterizedCommand(Command(org.junit.tools.handler.GenerateMockClass,Generates a mock-class,
+		Generates a mock-class for the selected class,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b80be13,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+M,
+	ParameterizedCommand(Command(org.jboss.tools.jmx.ui.navigate.open.mbean,Open MBean,
+		Open an MBean in an MBean editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a8e209b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-20 10:54:47.209
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Darren'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.jboss.tools.discovery.core 4 0 2017-11-20 10:54:55.283
+!MESSAGE All attempts to discover connectors have failed
+!SUBENTRY 1 org.eclipse.mylyn.discovery.core 4 0 2017-11-20 10:54:55.283
+!MESSAGE Failed to get connectors from CachedProxyWizardDiscoveryStrategy
+!STACK 0
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at org.eclipse.osgi.storagemanager.StorageManager.updateTable(StorageManager.java:511)
+	at org.eclipse.osgi.storagemanager.StorageManager.open(StorageManager.java:708)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.setFileManager(ExtensionRegistry.java:109)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.checkCache(ExtensionRegistry.java:888)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.<init>(ExtensionRegistry.java:673)
+	at org.jboss.tools.discovery.core.internal.connectors.xpl.ExternalBundleDiscoveryStrategy.performDiscovery(ExternalBundleDiscoveryStrategy.java:125)
+	at org.jboss.tools.discovery.core.internal.connectors.ChainedDiscoveryStrategy.performDiscovery(ChainedDiscoveryStrategy.java:68)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery.performDiscovery(ConnectorDiscovery.java:116)
+	at org.jboss.tools.central.internal.discovery.wizards.ProxyWizardManager.loadWizards(ProxyWizardManager.java:107)
+	at org.jboss.tools.central.internal.discovery.wizards.ProxyWizardManager.getProxyWizards(ProxyWizardManager.java:132)
+	at org.jboss.tools.central.editors.GettingStartedHtmlPage$5$2.run(GettingStartedHtmlPage.java:272)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-20 10:55:03.679
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.core.resources 4 567 2017-11-20 10:55:09.719
+!MESSAGE The project description file (.project) for 'card-service' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:57:20.905
+!MESSAGE Filter file E:\spring-netflix-oss-microservices\card-service\infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:57:20.948
+!MESSAGE Reloading core card-service
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:57:20.973
+!MESSAGE Added core card-service with classpath E:\spring-netflix-oss-microservices\card-service\target\classes;E:\spring-netflix-oss-microservices\card-service\target\classes;E:\spring-netflix-oss-microservices\card-service\target\test-classes;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\1.5.8.RELEASE\spring-boot-starter-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.8.RELEASE\spring-boot-starter-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot\1.5.8.RELEASE\spring-boot-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.8.RELEASE\spring-boot-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.8.RELEASE\spring-boot-starter-logging-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\Darren\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-actuator\1.5.8.RELEASE\spring-boot-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-context\4.3.12.RELEASE\spring-context-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-config\1.3.3.RELEASE\spring-cloud-starter-config-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter\1.2.4.RELEASE\spring-cloud-starter-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-context\1.2.4.RELEASE\spring-cloud-context-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-crypto\4.2.3.RELEASE\spring-security-crypto-4.2.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-commons\1.2.4.RELEASE\spring-cloud-commons-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-rsa\1.0.3.RELEASE\spring-security-rsa-1.0.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.55\bcpkix-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.55\bcprov-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-config-client\1.3.3.RELEASE\spring-cloud-config-client-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.10\jackson-databind-2.8.10.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.10\jackson-core-2.8.10.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-eureka\1.3.5.RELEASE\spring-cloud-starter-eureka-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-core\1.3.5.RELEASE\spring-cloud-netflix-core-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-client\1.3.5.RELEASE\spring-cloud-netflix-eureka-client-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\eureka\eureka-client\1.6.2\eureka-client-1.6.2.jar;C:\Users\Darren\.m2\repository\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar;C:\Users\Darren\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-infix\0.3.0\netflix-infix-0.3.0.jar;C:\Users\Darren\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\Users\Darren\.m2\repository\joda-time\joda-time\2.9.9\joda-time-2.9.9.jar;C:\Users\Darren\.m2\repository\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;C:\Users\Darren\.m2\repository\org\antlr\stringtemplate\3.2.1\stringtemplate-3.2.1.jar;C:\Users\Darren\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Darren\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Darren\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\archaius\archaius-core\0.7.4\archaius-core-0.7.4.jar;C:\Users\Darren\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\Darren\.m2\repository\com\netflix\servo\servo-core\0.10.1\servo-core-0.10.1.jar;C:\Users\Darren\.m2\repository\com\netflix\servo\servo-internal\0.10.1\servo-internal-0.10.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-core\1.19.1\jersey-core-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-client\1.19.1\jersey-client-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\contribs\jersey-apache-client4\1.19.1\jersey-apache-client4-1.19.1.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpcore\4.4.8\httpcore-4.4.8.jar;C:\Users\Darren\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Darren\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar;C:\Users\Darren\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Darren\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Darren\.m2\repository\com\netflix\eureka\eureka-core\1.6.2\eureka-core-1.6.2.jar;C:\Users\Darren\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\Darren\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Darren\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-archaius\1.3.5.RELEASE\spring-cloud-starter-archaius-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\commons-configuration\commons-configuration\1.8\commons-configuration-1.8.jar;C:\Users\Darren\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-ribbon\1.3.5.RELEASE\spring-cloud-starter-ribbon-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon\2.2.2\ribbon-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-transport\2.2.2\ribbon-transport-2.2.2.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty-contexts\0.4.9\rxnetty-contexts-0.4.9.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty-servo\0.4.9\rxnetty-servo-0.4.9.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-core\1.5.12\hystrix-core-1.5.12.jar;C:\Users\Darren\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.9\HdrHistogram-2.1.9.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty\0.4.9\rxnetty-0.4.9.jar;C:\Users\Darren\.m2\repository\io\netty\netty-codec-http\4.0.27.Final\netty-codec-http-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-codec\4.0.27.Final\netty-codec-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-handler\4.0.27.Final\netty-handler-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-transport-native-epoll\4.0.27.Final\netty-transport-native-epoll-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-common\4.0.27.Final\netty-common-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-buffer\4.0.27.Final\netty-buffer-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-transport\4.0.27.Final\netty-transport-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-core\2.2.2\ribbon-core-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-httpclient\2.2.2\ribbon-httpclient-2.2.2.jar;C:\Users\Darren\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-commons-util\0.1.1\netflix-commons-util-0.1.1.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-loadbalancer\2.2.2\ribbon-loadbalancer-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-statistics\0.1.1\netflix-statistics-0.1.1.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxjava\1.1.10\rxjava-1.1.10.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-eureka\2.2.2\ribbon-eureka-2.2.2.jar;C:\Users\Darren\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Darren\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\Darren\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Darren\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.8.RELEASE\spring-boot-starter-web-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.8.RELEASE\spring-boot-starter-tomcat-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.23\tomcat-embed-core-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\tomcat-annotations-api\8.5.23\tomcat-annotations-api-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.23\tomcat-embed-el-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.23\tomcat-embed-websocket-8.5.23.jar;C:\Users\Darren\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\Darren\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Darren\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\Darren\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-web\4.3.12.RELEASE\spring-web-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-aop\4.3.12.RELEASE\spring-aop-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-beans\4.3.12.RELEASE\spring-beans-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-webmvc\4.3.12.RELEASE\spring-webmvc-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-expression\4.3.12.RELEASE\spring-expression-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.5.8.RELEASE\spring-boot-starter-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test\1.5.8.RELEASE\spring-boot-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\1.5.8.RELEASE\spring-boot-test-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;C:\Users\Darren\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;C:\Users\Darren\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\Darren\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\Darren\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Darren\.m2\repository\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar;C:\Users\Darren\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;C:\Users\Darren\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Darren\.m2\repository\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar;C:\Users\Darren\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-core\4.3.12.RELEASE\spring-core-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-test\4.3.12.RELEASE\spring-test-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:/Users/Darren/AppData/Local/Temp/infinitest836806189.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:57:20.983
+!MESSAGE card-service Files changed: [E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\api\CardController.class, E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\cardservice\CardServiceApplication.class, E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\models\Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:57:39.281
+!MESSAGE card-service Files changed: [E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\api\CardController.class, E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\cardservice\CardServiceApplication.class, E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\models\Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:57:39.294
+!MESSAGE Files removed. Reloading card-service
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:57:39.300
+!MESSAGE Reloading core card-service
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:57:40.162
+!MESSAGE card-service Files changed: [E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\api\CardController.class, E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\cardservice\CardServiceApplication.class, E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\models\Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:40.485
+!MESSAGE Filter file E:\spring-netflix-oss-microservices\card-statement-composite\infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:40.509
+!MESSAGE Reloading core card-statement-composite
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:40.524
+!MESSAGE Added core card-statement-composite with classpath E:\spring-netflix-oss-microservices\card-statement-composite\target\classes;E:\spring-netflix-oss-microservices\card-statement-composite\target\classes;E:\spring-netflix-oss-microservices\card-statement-composite\target\test-classes;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\1.5.8.RELEASE\spring-boot-starter-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.8.RELEASE\spring-boot-starter-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot\1.5.8.RELEASE\spring-boot-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.8.RELEASE\spring-boot-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.8.RELEASE\spring-boot-starter-logging-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\Darren\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-actuator\1.5.8.RELEASE\spring-boot-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-context\4.3.12.RELEASE\spring-context-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-config\1.3.3.RELEASE\spring-cloud-starter-config-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter\1.2.4.RELEASE\spring-cloud-starter-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-context\1.2.4.RELEASE\spring-cloud-context-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-rsa\1.0.3.RELEASE\spring-security-rsa-1.0.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.55\bcpkix-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.55\bcprov-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-config-client\1.3.3.RELEASE\spring-cloud-config-client-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.10\jackson-databind-2.8.10.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.10\jackson-core-2.8.10.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-eureka\1.3.5.RELEASE\spring-cloud-starter-eureka-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-core\1.3.5.RELEASE\spring-cloud-netflix-core-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-client\1.3.5.RELEASE\spring-cloud-netflix-eureka-client-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\eureka\eureka-client\1.6.2\eureka-client-1.6.2.jar;C:\Users\Darren\.m2\repository\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar;C:\Users\Darren\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-infix\0.3.0\netflix-infix-0.3.0.jar;C:\Users\Darren\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\Users\Darren\.m2\repository\joda-time\joda-time\2.9.9\joda-time-2.9.9.jar;C:\Users\Darren\.m2\repository\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;C:\Users\Darren\.m2\repository\org\antlr\stringtemplate\3.2.1\stringtemplate-3.2.1.jar;C:\Users\Darren\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Darren\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Darren\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\archaius\archaius-core\0.7.4\archaius-core-0.7.4.jar;C:\Users\Darren\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\Darren\.m2\repository\com\netflix\servo\servo-core\0.10.1\servo-core-0.10.1.jar;C:\Users\Darren\.m2\repository\com\netflix\servo\servo-internal\0.10.1\servo-internal-0.10.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-core\1.19.1\jersey-core-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-client\1.19.1\jersey-client-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\contribs\jersey-apache-client4\1.19.1\jersey-apache-client4-1.19.1.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpcore\4.4.8\httpcore-4.4.8.jar;C:\Users\Darren\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Darren\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar;C:\Users\Darren\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Darren\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Darren\.m2\repository\com\netflix\eureka\eureka-core\1.6.2\eureka-core-1.6.2.jar;C:\Users\Darren\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\Darren\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Darren\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-archaius\1.3.5.RELEASE\spring-cloud-starter-archaius-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\commons-configuration\commons-configuration\1.8\commons-configuration-1.8.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-ribbon\1.3.5.RELEASE\spring-cloud-starter-ribbon-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon\2.2.2\ribbon-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-transport\2.2.2\ribbon-transport-2.2.2.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty-contexts\0.4.9\rxnetty-contexts-0.4.9.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty-servo\0.4.9\rxnetty-servo-0.4.9.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty\0.4.9\rxnetty-0.4.9.jar;C:\Users\Darren\.m2\repository\io\netty\netty-codec-http\4.0.27.Final\netty-codec-http-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-codec\4.0.27.Final\netty-codec-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-handler\4.0.27.Final\netty-handler-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-transport-native-epoll\4.0.27.Final\netty-transport-native-epoll-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-common\4.0.27.Final\netty-common-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-buffer\4.0.27.Final\netty-buffer-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-transport\4.0.27.Final\netty-transport-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-core\2.2.2\ribbon-core-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-httpclient\2.2.2\ribbon-httpclient-2.2.2.jar;C:\Users\Darren\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-commons-util\0.1.1\netflix-commons-util-0.1.1.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-loadbalancer\2.2.2\ribbon-loadbalancer-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-statistics\0.1.1\netflix-statistics-0.1.1.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxjava\1.1.10\rxjava-1.1.10.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-eureka\2.2.2\ribbon-eureka-2.2.2.jar;C:\Users\Darren\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Darren\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\Darren\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Darren\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-feign\1.3.5.RELEASE\spring-cloud-starter-feign-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-web\4.3.12.RELEASE\spring-web-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-aop\4.3.12.RELEASE\spring-aop-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-beans\4.3.12.RELEASE\spring-beans-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-commons\1.2.4.RELEASE\spring-cloud-commons-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-crypto\4.2.3.RELEASE\spring-security-crypto-4.2.3.RELEASE.jar;C:\Users\Darren\.m2\repository\io\github\openfeign\feign-core\9.5.0\feign-core-9.5.0.jar;C:\Users\Darren\.m2\repository\org\jvnet\animal-sniffer-annotation\1.0\animal-sniffer-annotation-1.0.jar;C:\Users\Darren\.m2\repository\io\github\openfeign\feign-slf4j\9.5.0\feign-slf4j-9.5.0.jar;C:\Users\Darren\.m2\repository\io\github\openfeign\feign-hystrix\9.5.0\feign-hystrix-9.5.0.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.8.RELEASE\spring-boot-starter-web-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.8.RELEASE\spring-boot-starter-tomcat-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.23\tomcat-embed-core-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\tomcat-annotations-api\8.5.23\tomcat-annotations-api-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.23\tomcat-embed-el-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.23\tomcat-embed-websocket-8.5.23.jar;C:\Users\Darren\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\Darren\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Darren\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\Darren\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-webmvc\4.3.12.RELEASE\spring-webmvc-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-expression\4.3.12.RELEASE\spring-expression-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.5.8.RELEASE\spring-boot-starter-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test\1.5.8.RELEASE\spring-boot-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\1.5.8.RELEASE\spring-boot-test-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;C:\Users\Darren\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;C:\Users\Darren\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\Darren\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Darren\.m2\repository\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar;C:\Users\Darren\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;C:\Users\Darren\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Darren\.m2\repository\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar;C:\Users\Darren\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-core\4.3.12.RELEASE\spring-core-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-test\4.3.12.RELEASE\spring-test-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-javanica\1.5.12\hystrix-javanica-1.5.12.jar;C:\Users\Darren\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\Darren\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-core\1.5.12\hystrix-core-1.5.12.jar;C:\Users\Darren\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.9\HdrHistogram-2.1.9.jar;C:\Users\Darren\.m2\repository\org\aspectj\aspectjweaver\1.8.11\aspectjweaver-1.8.11.jar;C:\Users\Darren\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\Darren\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-core\1.5.12\hystrix-core-1.5.12.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-javanica\1.5.12\hystrix-javanica-1.5.12.jar;C:/Users/Darren/AppData/Local/Temp/infinitest836806189.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:40.535
+!MESSAGE card-statement-composite Files changed: [E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\StatementVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\api\CardStatementController.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\cardstatementcomposite\CardStatementCompositeApplication.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\CardVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardClient.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementClient.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:40.745
+!MESSAGE Filter file E:\spring-netflix-oss-microservices\config-server\infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:40.759
+!MESSAGE Reloading core config-server
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:40.770
+!MESSAGE Added core config-server with classpath E:\spring-netflix-oss-microservices\config-server\target\classes;E:\spring-netflix-oss-microservices\config-server\target\classes;E:\spring-netflix-oss-microservices\config-server\target\test-classes;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\1.5.8.RELEASE\spring-boot-starter-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.8.RELEASE\spring-boot-starter-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot\1.5.8.RELEASE\spring-boot-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.8.RELEASE\spring-boot-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.8.RELEASE\spring-boot-starter-logging-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\Darren\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-actuator\1.5.8.RELEASE\spring-boot-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.10\jackson-databind-2.8.10.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.10\jackson-core-2.8.10.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-context\4.3.12.RELEASE\spring-context-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-aop\4.3.12.RELEASE\spring-aop-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-beans\4.3.12.RELEASE\spring-beans-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-expression\4.3.12.RELEASE\spring-expression-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-config-server\1.3.3.RELEASE\spring-cloud-config-server-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-config-client\1.3.3.RELEASE\spring-cloud-config-client-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-commons\1.2.4.RELEASE\spring-cloud-commons-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-context\1.2.4.RELEASE\spring-cloud-context-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-web\4.3.12.RELEASE\spring-web-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.8.RELEASE\spring-boot-starter-web-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.8.RELEASE\spring-boot-starter-tomcat-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.23\tomcat-embed-core-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\tomcat-annotations-api\8.5.23\tomcat-annotations-api-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.23\tomcat-embed-el-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.23\tomcat-embed-websocket-8.5.23.jar;C:\Users\Darren\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\Darren\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Darren\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\Darren\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-webmvc\4.3.12.RELEASE\spring-webmvc-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-crypto\4.2.3.RELEASE\spring-security-crypto-4.2.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-rsa\1.0.3.RELEASE\spring-security-rsa-1.0.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.55\bcpkix-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.55\bcprov-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\eclipse\jgit\org.eclipse.jgit\3.6.1.201501031845-r\org.eclipse.jgit-3.6.1.201501031845-r.jar;C:\Users\Darren\.m2\repository\com\jcraft\jsch\0.1.54\jsch-0.1.54.jar;C:\Users\Darren\.m2\repository\com\googlecode\javaewah\JavaEWAH\0.7.9\JavaEWAH-0.7.9.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpcore\4.4.8\httpcore-4.4.8.jar;C:\Users\Darren\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Darren\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.5.8.RELEASE\spring-boot-starter-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test\1.5.8.RELEASE\spring-boot-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\1.5.8.RELEASE\spring-boot-test-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;C:\Users\Darren\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;C:\Users\Darren\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\Darren\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\Darren\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Darren\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Darren\.m2\repository\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar;C:\Users\Darren\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;C:\Users\Darren\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Darren\.m2\repository\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar;C:\Users\Darren\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-core\4.3.12.RELEASE\spring-core-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-test\4.3.12.RELEASE\spring-test-4.3.12.RELEASE.jar;C:/Users/Darren/AppData/Local/Temp/infinitest836806189.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:40.777
+!MESSAGE config-server Files changed: [E:\spring-netflix-oss-microservices\config-server\target\classes\com\spring\microservices\configserver\ConfigServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:42.233
+!MESSAGE card-statement-composite Files changed: [E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\StatementVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\api\CardStatementController.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\cardstatementcomposite\CardStatementCompositeApplication.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\CardVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardClient.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementClient.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:43.987
+!MESSAGE card-statement-composite Files changed: [E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\StatementVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\api\CardStatementController.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\cardstatementcomposite\CardStatementCompositeApplication.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\CardVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardClient.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementClient.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:44.156
+!MESSAGE config-server Files changed: [E:\spring-netflix-oss-microservices\config-server\target\classes\com\spring\microservices\configserver\ConfigServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:44.185
+!MESSAGE Filter file E:\spring-netflix-oss-microservices\discovery\infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:44.209
+!MESSAGE Reloading core discovery
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:44.226
+!MESSAGE Added core discovery with classpath E:\spring-netflix-oss-microservices\discovery\target\classes;E:\spring-netflix-oss-microservices\discovery\target\classes;E:\spring-netflix-oss-microservices\discovery\target\test-classes;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\1.5.8.RELEASE\spring-boot-starter-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.8.RELEASE\spring-boot-starter-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot\1.5.8.RELEASE\spring-boot-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.8.RELEASE\spring-boot-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.8.RELEASE\spring-boot-starter-logging-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\Darren\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-actuator\1.5.8.RELEASE\spring-boot-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-context\4.3.12.RELEASE\spring-context-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-aop\4.3.12.RELEASE\spring-aop-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-beans\4.3.12.RELEASE\spring-beans-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-expression\4.3.12.RELEASE\spring-expression-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-config\1.3.3.RELEASE\spring-cloud-starter-config-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter\1.2.4.RELEASE\spring-cloud-starter-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-context\1.2.4.RELEASE\spring-cloud-context-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-crypto\4.2.3.RELEASE\spring-security-crypto-4.2.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-commons\1.2.4.RELEASE\spring-cloud-commons-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-rsa\1.0.3.RELEASE\spring-security-rsa-1.0.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.55\bcpkix-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.55\bcprov-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-config-client\1.3.3.RELEASE\spring-cloud-config-client-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-web\4.3.12.RELEASE\spring-web-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.10\jackson-databind-2.8.10.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.10\jackson-core-2.8.10.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-eureka-server\1.3.5.RELEASE\spring-cloud-starter-eureka-server-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-server\1.3.5.RELEASE\spring-cloud-netflix-eureka-server-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.8.RELEASE\spring-boot-starter-web-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.8.RELEASE\spring-boot-starter-tomcat-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.23\tomcat-embed-core-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\tomcat-annotations-api\8.5.23\tomcat-annotations-api-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.23\tomcat-embed-el-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.23\tomcat-embed-websocket-8.5.23.jar;C:\Users\Darren\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\Darren\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Darren\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\Darren\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-webmvc\4.3.12.RELEASE\spring-webmvc-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-freemarker\1.5.8.RELEASE\spring-boot-starter-freemarker-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\freemarker\freemarker\2.3.26-incubating\freemarker-2.3.26-incubating.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-context-support\4.3.12.RELEASE\spring-context-support-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-core\1.3.5.RELEASE\spring-cloud-netflix-core-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-client\1.3.5.RELEASE\spring-cloud-netflix-eureka-client-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\eureka\eureka-client\1.6.2\eureka-client-1.6.2.jar;C:\Users\Darren\.m2\repository\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar;C:\Users\Darren\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-infix\0.3.0\netflix-infix-0.3.0.jar;C:\Users\Darren\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\Users\Darren\.m2\repository\joda-time\joda-time\2.9.9\joda-time-2.9.9.jar;C:\Users\Darren\.m2\repository\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;C:\Users\Darren\.m2\repository\org\antlr\stringtemplate\3.2.1\stringtemplate-3.2.1.jar;C:\Users\Darren\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Darren\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Darren\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;C:\Users\Darren\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\Darren\.m2\repository\com\netflix\servo\servo-core\0.10.1\servo-core-0.10.1.jar;C:\Users\Darren\.m2\repository\com\netflix\servo\servo-internal\0.10.1\servo-internal-0.10.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-core\1.19.1\jersey-core-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-client\1.19.1\jersey-client-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\contribs\jersey-apache-client4\1.19.1\jersey-apache-client4-1.19.1.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpcore\4.4.8\httpcore-4.4.8.jar;C:\Users\Darren\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Darren\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar;C:\Users\Darren\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-servlet\1.19.1\jersey-servlet-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-server\1.19.1\jersey-server-1.19.1.jar;C:\Users\Darren\.m2\repository\com\netflix\eureka\eureka-core\1.6.2\eureka-core-1.6.2.jar;C:\Users\Darren\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\Darren\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Darren\.m2\repository\com\netflix\archaius\archaius-core\0.7.4\archaius-core-0.7.4.jar;C:\Users\Darren\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Darren\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.8.10\jackson-dataformat-xml-2.8.10.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.8.10\jackson-module-jaxb-annotations-2.8.10.jar;C:\Users\Darren\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\Darren\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.0.3\woodstox-core-5.0.3.jar;C:\Users\Darren\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\Darren\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Darren\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-archaius\1.3.5.RELEASE\spring-cloud-starter-archaius-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\commons-configuration\commons-configuration\1.8\commons-configuration-1.8.jar;C:\Users\Darren\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-ribbon\1.3.5.RELEASE\spring-cloud-starter-ribbon-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon\2.2.2\ribbon-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-transport\2.2.2\ribbon-transport-2.2.2.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty-contexts\0.4.9\rxnetty-contexts-0.4.9.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty-servo\0.4.9\rxnetty-servo-0.4.9.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-core\1.5.12\hystrix-core-1.5.12.jar;C:\Users\Darren\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.9\HdrHistogram-2.1.9.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty\0.4.9\rxnetty-0.4.9.jar;C:\Users\Darren\.m2\repository\io\netty\netty-codec-http\4.0.27.Final\netty-codec-http-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-codec\4.0.27.Final\netty-codec-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-handler\4.0.27.Final\netty-handler-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-transport-native-epoll\4.0.27.Final\netty-transport-native-epoll-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-common\4.0.27.Final\netty-common-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-buffer\4.0.27.Final\netty-buffer-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-transport\4.0.27.Final\netty-transport-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-core\2.2.2\ribbon-core-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-httpclient\2.2.2\ribbon-httpclient-2.2.2.jar;C:\Users\Darren\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-commons-util\0.1.1\netflix-commons-util-0.1.1.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-loadbalancer\2.2.2\ribbon-loadbalancer-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-statistics\0.1.1\netflix-statistics-0.1.1.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxjava\1.1.10\rxjava-1.1.10.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-eureka\2.2.2\ribbon-eureka-2.2.2.jar;C:\Users\Darren\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.5.8.RELEASE\spring-boot-starter-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test\1.5.8.RELEASE\spring-boot-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\1.5.8.RELEASE\spring-boot-test-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;C:\Users\Darren\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;C:\Users\Darren\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\Darren\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\Darren\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Darren\.m2\repository\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar;C:\Users\Darren\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;C:\Users\Darren\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Darren\.m2\repository\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar;C:\Users\Darren\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-core\4.3.12.RELEASE\spring-core-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-test\4.3.12.RELEASE\spring-test-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:/Users/Darren/AppData/Local/Temp/infinitest836806189.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:44.235
+!MESSAGE discovery Files changed: [E:\spring-netflix-oss-microservices\discovery\target\classes\com\spring\microservices\discoveryservice\DiscoveryServiceApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:44.639
+!MESSAGE Filter file E:\spring-netflix-oss-microservices\gateway\infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:44.660
+!MESSAGE Reloading core gateway
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:44.673
+!MESSAGE Added core gateway with classpath E:\spring-netflix-oss-microservices\gateway\target\classes;E:\spring-netflix-oss-microservices\gateway\target\classes;E:\spring-netflix-oss-microservices\gateway\target\test-classes;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\1.5.8.RELEASE\spring-boot-starter-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.8.RELEASE\spring-boot-starter-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot\1.5.8.RELEASE\spring-boot-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.8.RELEASE\spring-boot-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.8.RELEASE\spring-boot-starter-logging-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\Darren\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-actuator\1.5.8.RELEASE\spring-boot-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-context\4.3.12.RELEASE\spring-context-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-aop\4.3.12.RELEASE\spring-aop-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-beans\4.3.12.RELEASE\spring-beans-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-expression\4.3.12.RELEASE\spring-expression-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-config\1.3.3.RELEASE\spring-cloud-starter-config-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter\1.2.4.RELEASE\spring-cloud-starter-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-context\1.2.4.RELEASE\spring-cloud-context-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-crypto\4.2.3.RELEASE\spring-security-crypto-4.2.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-commons\1.2.4.RELEASE\spring-cloud-commons-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-rsa\1.0.3.RELEASE\spring-security-rsa-1.0.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.55\bcpkix-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.55\bcprov-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-config-client\1.3.3.RELEASE\spring-cloud-config-client-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-web\4.3.12.RELEASE\spring-web-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.10\jackson-databind-2.8.10.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.10\jackson-core-2.8.10.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-eureka\1.3.5.RELEASE\spring-cloud-starter-eureka-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.8.RELEASE\spring-boot-starter-web-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.8.RELEASE\spring-boot-starter-tomcat-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.23\tomcat-embed-core-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\tomcat-annotations-api\8.5.23\tomcat-annotations-api-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.23\tomcat-embed-el-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.23\tomcat-embed-websocket-8.5.23.jar;C:\Users\Darren\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\Darren\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Darren\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\Darren\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-webmvc\4.3.12.RELEASE\spring-webmvc-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-core\1.3.5.RELEASE\spring-cloud-netflix-core-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-client\1.3.5.RELEASE\spring-cloud-netflix-eureka-client-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\eureka\eureka-client\1.6.2\eureka-client-1.6.2.jar;C:\Users\Darren\.m2\repository\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar;C:\Users\Darren\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-infix\0.3.0\netflix-infix-0.3.0.jar;C:\Users\Darren\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\Users\Darren\.m2\repository\joda-time\joda-time\2.9.9\joda-time-2.9.9.jar;C:\Users\Darren\.m2\repository\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;C:\Users\Darren\.m2\repository\org\antlr\stringtemplate\3.2.1\stringtemplate-3.2.1.jar;C:\Users\Darren\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Darren\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Darren\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\archaius\archaius-core\0.7.4\archaius-core-0.7.4.jar;C:\Users\Darren\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\Darren\.m2\repository\com\netflix\servo\servo-core\0.10.1\servo-core-0.10.1.jar;C:\Users\Darren\.m2\repository\com\netflix\servo\servo-internal\0.10.1\servo-internal-0.10.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-core\1.19.1\jersey-core-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-client\1.19.1\jersey-client-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\contribs\jersey-apache-client4\1.19.1\jersey-apache-client4-1.19.1.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpcore\4.4.8\httpcore-4.4.8.jar;C:\Users\Darren\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Darren\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar;C:\Users\Darren\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Darren\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Darren\.m2\repository\com\netflix\eureka\eureka-core\1.6.2\eureka-core-1.6.2.jar;C:\Users\Darren\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\Darren\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Darren\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-archaius\1.3.5.RELEASE\spring-cloud-starter-archaius-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\commons-configuration\commons-configuration\1.8\commons-configuration-1.8.jar;C:\Users\Darren\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-ribbon\1.3.5.RELEASE\spring-cloud-starter-ribbon-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon\2.2.2\ribbon-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-transport\2.2.2\ribbon-transport-2.2.2.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty-contexts\0.4.9\rxnetty-contexts-0.4.9.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty-servo\0.4.9\rxnetty-servo-0.4.9.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty\0.4.9\rxnetty-0.4.9.jar;C:\Users\Darren\.m2\repository\io\netty\netty-codec-http\4.0.27.Final\netty-codec-http-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-codec\4.0.27.Final\netty-codec-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-handler\4.0.27.Final\netty-handler-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-transport-native-epoll\4.0.27.Final\netty-transport-native-epoll-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-common\4.0.27.Final\netty-common-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-buffer\4.0.27.Final\netty-buffer-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-transport\4.0.27.Final\netty-transport-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-core\2.2.2\ribbon-core-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-httpclient\2.2.2\ribbon-httpclient-2.2.2.jar;C:\Users\Darren\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-loadbalancer\2.2.2\ribbon-loadbalancer-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-statistics\0.1.1\netflix-statistics-0.1.1.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxjava\1.1.10\rxjava-1.1.10.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-eureka\2.2.2\ribbon-eureka-2.2.2.jar;C:\Users\Darren\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Darren\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\Darren\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Darren\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-zuul\1.3.5.RELEASE\spring-cloud-starter-zuul-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-hystrix\1.3.5.RELEASE\spring-cloud-starter-hystrix-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-core\1.5.12\hystrix-core-1.5.12.jar;C:\Users\Darren\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.9\HdrHistogram-2.1.9.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-metrics-event-stream\1.5.12\hystrix-metrics-event-stream-1.5.12.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-serialization\1.5.12\hystrix-serialization-1.5.12.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\module\jackson-module-afterburner\2.8.10\jackson-module-afterburner-2.8.10.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-javanica\1.5.12\hystrix-javanica-1.5.12.jar;C:\Users\Darren\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\Darren\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Darren\.m2\repository\org\aspectj\aspectjweaver\1.8.11\aspectjweaver-1.8.11.jar;C:\Users\Darren\.m2\repository\com\netflix\zuul\zuul-core\1.3.0\zuul-core-1.3.0.jar;C:\Users\Darren\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-commons-util\0.1.1\netflix-commons-util-0.1.1.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.5.8.RELEASE\spring-boot-starter-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test\1.5.8.RELEASE\spring-boot-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\1.5.8.RELEASE\spring-boot-test-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;C:\Users\Darren\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;C:\Users\Darren\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\Darren\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Darren\.m2\repository\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar;C:\Users\Darren\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;C:\Users\Darren\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Darren\.m2\repository\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar;C:\Users\Darren\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-core\4.3.12.RELEASE\spring-core-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-test\4.3.12.RELEASE\spring-test-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:/Users/Darren/AppData/Local/Temp/infinitest836806189.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:44.680
+!MESSAGE gateway Files changed: [E:\spring-netflix-oss-microservices\gateway\target\classes\com\spring\microservices\edgeserver\EdgeServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:45.292
+!MESSAGE config-server Files changed: [E:\spring-netflix-oss-microservices\config-server\target\classes\com\spring\microservices\configserver\ConfigServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:45.377
+!MESSAGE Filter file E:\spring-netflix-oss-microservices\statement-service\infinitest.filters does not exist.
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:45.416
+!MESSAGE Reloading core statement-service
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:45.430
+!MESSAGE Added core statement-service with classpath E:\spring-netflix-oss-microservices\statement-service\target\classes;E:\spring-netflix-oss-microservices\statement-service\target\classes;E:\spring-netflix-oss-microservices\statement-service\target\test-classes;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-actuator\1.5.8.RELEASE\spring-boot-starter-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.8.RELEASE\spring-boot-starter-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot\1.5.8.RELEASE\spring-boot-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.8.RELEASE\spring-boot-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.8.RELEASE\spring-boot-starter-logging-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-classic\1.1.11\logback-classic-1.1.11.jar;C:\Users\Darren\.m2\repository\ch\qos\logback\logback-core\1.1.11\logback-core-1.1.11.jar;C:\Users\Darren\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.25\log4j-over-slf4j-1.7.25.jar;C:\Users\Darren\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-actuator\1.5.8.RELEASE\spring-boot-actuator-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-context\4.3.12.RELEASE\spring-context-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-config\1.3.3.RELEASE\spring-cloud-starter-config-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter\1.2.4.RELEASE\spring-cloud-starter-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-context\1.2.4.RELEASE\spring-cloud-context-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-crypto\4.2.3.RELEASE\spring-security-crypto-4.2.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-commons\1.2.4.RELEASE\spring-cloud-commons-1.2.4.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\security\spring-security-rsa\1.0.3.RELEASE\spring-security-rsa-1.0.3.RELEASE.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.55\bcpkix-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.55\bcprov-jdk15on-1.55.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-config-client\1.3.3.RELEASE\spring-cloud-config-client-1.3.3.RELEASE.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.10\jackson-databind-2.8.10.jar;C:\Users\Darren\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.10\jackson-core-2.8.10.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-eureka\1.3.5.RELEASE\spring-cloud-starter-eureka-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-core\1.3.5.RELEASE\spring-cloud-netflix-core-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-netflix-eureka-client\1.3.5.RELEASE\spring-cloud-netflix-eureka-client-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\eureka\eureka-client\1.6.2\eureka-client-1.6.2.jar;C:\Users\Darren\.m2\repository\org\codehaus\jettison\jettison\1.3.7\jettison-1.3.7.jar;C:\Users\Darren\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-eventbus\0.3.0\netflix-eventbus-0.3.0.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-infix\0.3.0\netflix-infix-0.3.0.jar;C:\Users\Darren\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\Users\Darren\.m2\repository\joda-time\joda-time\2.9.9\joda-time-2.9.9.jar;C:\Users\Darren\.m2\repository\org\antlr\antlr-runtime\3.4\antlr-runtime-3.4.jar;C:\Users\Darren\.m2\repository\org\antlr\stringtemplate\3.2.1\stringtemplate-3.2.1.jar;C:\Users\Darren\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Darren\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Darren\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\archaius\archaius-core\0.7.4\archaius-core-0.7.4.jar;C:\Users\Darren\.m2\repository\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;C:\Users\Darren\.m2\repository\com\netflix\servo\servo-core\0.10.1\servo-core-0.10.1.jar;C:\Users\Darren\.m2\repository\com\netflix\servo\servo-internal\0.10.1\servo-internal-0.10.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-core\1.19.1\jersey-core-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\jersey-client\1.19.1\jersey-client-1.19.1.jar;C:\Users\Darren\.m2\repository\com\sun\jersey\contribs\jersey-apache-client4\1.19.1\jersey-apache-client4-1.19.1.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Darren\.m2\repository\org\apache\httpcomponents\httpcore\4.4.8\httpcore-4.4.8.jar;C:\Users\Darren\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Darren\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0.jar;C:\Users\Darren\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Darren\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Darren\.m2\repository\com\netflix\eureka\eureka-core\1.6.2\eureka-core-1.6.2.jar;C:\Users\Darren\.m2\repository\org\codehaus\woodstox\woodstox-core-asl\4.4.1\woodstox-core-asl-4.4.1.jar;C:\Users\Darren\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\Darren\.m2\repository\org\codehaus\woodstox\stax2-api\3.1.4\stax2-api-3.1.4.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-archaius\1.3.5.RELEASE\spring-cloud-starter-archaius-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\commons-configuration\commons-configuration\1.8\commons-configuration-1.8.jar;C:\Users\Darren\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\Darren\.m2\repository\org\springframework\cloud\spring-cloud-starter-ribbon\1.3.5.RELEASE\spring-cloud-starter-ribbon-1.3.5.RELEASE.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon\2.2.2\ribbon-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-transport\2.2.2\ribbon-transport-2.2.2.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty-contexts\0.4.9\rxnetty-contexts-0.4.9.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty-servo\0.4.9\rxnetty-servo-0.4.9.jar;C:\Users\Darren\.m2\repository\com\netflix\hystrix\hystrix-core\1.5.12\hystrix-core-1.5.12.jar;C:\Users\Darren\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.9\HdrHistogram-2.1.9.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxnetty\0.4.9\rxnetty-0.4.9.jar;C:\Users\Darren\.m2\repository\io\netty\netty-codec-http\4.0.27.Final\netty-codec-http-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-codec\4.0.27.Final\netty-codec-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-handler\4.0.27.Final\netty-handler-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-transport-native-epoll\4.0.27.Final\netty-transport-native-epoll-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-common\4.0.27.Final\netty-common-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-buffer\4.0.27.Final\netty-buffer-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\io\netty\netty-transport\4.0.27.Final\netty-transport-4.0.27.Final.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-core\2.2.2\ribbon-core-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-httpclient\2.2.2\ribbon-httpclient-2.2.2.jar;C:\Users\Darren\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-commons-util\0.1.1\netflix-commons-util-0.1.1.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-loadbalancer\2.2.2\ribbon-loadbalancer-2.2.2.jar;C:\Users\Darren\.m2\repository\com\netflix\netflix-commons\netflix-statistics\0.1.1\netflix-statistics-0.1.1.jar;C:\Users\Darren\.m2\repository\io\reactivex\rxjava\1.1.10\rxjava-1.1.10.jar;C:\Users\Darren\.m2\repository\com\netflix\ribbon\ribbon-eureka\2.2.2\ribbon-eureka-2.2.2.jar;C:\Users\Darren\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Darren\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\Darren\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Darren\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.8.RELEASE\spring-boot-starter-web-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.8.RELEASE\spring-boot-starter-tomcat-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.23\tomcat-embed-core-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\tomcat-annotations-api\8.5.23\tomcat-annotations-api-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.23\tomcat-embed-el-8.5.23.jar;C:\Users\Darren\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.23\tomcat-embed-websocket-8.5.23.jar;C:\Users\Darren\.m2\repository\org\hibernate\hibernate-validator\5.3.5.Final\hibernate-validator-5.3.5.Final.jar;C:\Users\Darren\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Darren\.m2\repository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;C:\Users\Darren\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-web\4.3.12.RELEASE\spring-web-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-aop\4.3.12.RELEASE\spring-aop-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-beans\4.3.12.RELEASE\spring-beans-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-webmvc\4.3.12.RELEASE\spring-webmvc-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-expression\4.3.12.RELEASE\spring-expression-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-starter-test\1.5.8.RELEASE\spring-boot-starter-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test\1.5.8.RELEASE\spring-boot-test-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\1.5.8.RELEASE\spring-boot-test-autoconfigure-1.5.8.RELEASE.jar;C:\Users\Darren\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;C:\Users\Darren\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;C:\Users\Darren\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\Darren\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\Darren\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Darren\.m2\repository\org\assertj\assertj-core\2.6.0\assertj-core-2.6.0.jar;C:\Users\Darren\.m2\repository\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;C:\Users\Darren\.m2\repository\org\objenesis\objenesis\2.1\objenesis-2.1.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Darren\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Darren\.m2\repository\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar;C:\Users\Darren\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-core\4.3.12.RELEASE\spring-core-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\org\springframework\spring-test\4.3.12.RELEASE\spring-test-4.3.12.RELEASE.jar;C:\Users\Darren\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:/Users/Darren/AppData/Local/Temp/infinitest836806189.jar
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:45.445
+!MESSAGE statement-service Files changed: [E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\statementservice\StatementServiceApplication.class, E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\api\StatementController.class, E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\models\Statement.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:46.780
+!MESSAGE discovery Files changed: [E:\spring-netflix-oss-microservices\discovery\target\classes\com\spring\microservices\discoveryservice\DiscoveryServiceApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:48.476
+!MESSAGE discovery Files changed: [E:\spring-netflix-oss-microservices\discovery\target\classes\com\spring\microservices\discoveryservice\DiscoveryServiceApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 10:59:51.211
+!MESSAGE gateway Files changed: [E:\spring-netflix-oss-microservices\gateway\target\classes\com\spring\microservices\edgeserver\EdgeServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:09.484
+!MESSAGE statement-service Files changed: [E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\statementservice\StatementServiceApplication.class, E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\api\StatementController.class, E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\models\Statement.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:10.083
+!MESSAGE card-service Files changed: [E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\api\CardController.class, E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\cardservice\CardServiceApplication.class, E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\models\Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:10.101
+!MESSAGE Reloading core card-statement-composite
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:10.109
+!MESSAGE card-statement-composite Files changed: [E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\StatementVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\api\CardStatementController.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\cardstatementcomposite\CardStatementCompositeApplication.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\CardVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardClient.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementClient.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:10.399
+!MESSAGE card-statement-composite Files changed: [E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\StatementVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\api\CardStatementController.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\cardstatementcomposite\CardStatementCompositeApplication.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\CardVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardClient.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementClient.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:10.658
+!MESSAGE config-server Files changed: [E:\spring-netflix-oss-microservices\config-server\target\classes\com\spring\microservices\configserver\ConfigServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:10.943
+!MESSAGE discovery Files changed: [E:\spring-netflix-oss-microservices\discovery\target\classes\com\spring\microservices\discoveryservice\DiscoveryServiceApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.174
+!MESSAGE gateway Files changed: [E:\spring-netflix-oss-microservices\gateway\target\classes\com\spring\microservices\edgeserver\EdgeServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.328
+!MESSAGE statement-service Files changed: [E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\statementservice\StatementServiceApplication.class, E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\api\StatementController.class, E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\models\Statement.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.338
+!MESSAGE Files removed. Reloading card-service
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.344
+!MESSAGE Reloading core card-service
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.351
+!MESSAGE Files removed. Reloading card-statement-composite
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.360
+!MESSAGE Reloading core card-statement-composite
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.368
+!MESSAGE Files removed. Reloading config-server
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.374
+!MESSAGE Reloading core config-server
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.385
+!MESSAGE Files removed. Reloading discovery
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.392
+!MESSAGE Reloading core discovery
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.401
+!MESSAGE Files removed. Reloading gateway
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.408
+!MESSAGE Reloading core gateway
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.417
+!MESSAGE Files removed. Reloading statement-service
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:11.425
+!MESSAGE Reloading core statement-service
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:13.175
+!MESSAGE card-service Files changed: [E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\api\CardController.class, E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\cardservice\CardServiceApplication.class, E:\spring-netflix-oss-microservices\card-service\target\classes\com\spring\microservices\models\Card.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:13.188
+!MESSAGE card-statement-composite Files changed: [E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\StatementVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardService.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\api\CardStatementController.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\cardstatementcomposite\CardStatementCompositeApplication.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\models\CardVO.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\ICardClient.class, E:\spring-netflix-oss-microservices\card-statement-composite\target\classes\com\spring\microservices\services\IStatementClient.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:13.197
+!MESSAGE config-server Files changed: [E:\spring-netflix-oss-microservices\config-server\target\classes\com\spring\microservices\configserver\ConfigServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:13.204
+!MESSAGE discovery Files changed: [E:\spring-netflix-oss-microservices\discovery\target\classes\com\spring\microservices\discoveryservice\DiscoveryServiceApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:13.211
+!MESSAGE gateway Files changed: [E:\spring-netflix-oss-microservices\gateway\target\classes\com\spring\microservices\edgeserver\EdgeServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:00:14.123
+!MESSAGE statement-service Files changed: [E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\statementservice\StatementServiceApplication.class, E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\api\StatementController.class, E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\models\Statement.class]
+
+!ENTRY org.eclipse.ui 4 0 2017-11-20 11:06:34.596
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalStateException: basedir ${project_loc:discovery} does not exist
+	at org.codehaus.plexus.util.DirectoryScanner.scan(DirectoryScanner.java:308)
+	at org.eclipse.m2e.internal.launch.MavenConsoleLineTracker$MavenConsoleHyperLink.linkActivated(MavenConsoleLineTracker.java:226)
+	at org.eclipse.ui.console.TextConsoleViewer$2.handleEvent(TextConsoleViewer.java:121)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.jface.text 2 0 2017-11-20 11:13:33.884
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-11-20 11:13:33.891
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:13:39.378
+!MESSAGE config-server Files changed: [E:\spring-netflix-oss-microservices\config-server\target\classes\com\spring\microservices\configserver\ConfigServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:13:39.386
+!MESSAGE discovery Files changed: [E:\spring-netflix-oss-microservices\discovery\target\classes\com\spring\microservices\discoveryservice\DiscoveryServiceApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:13:39.394
+!MESSAGE gateway Files changed: [E:\spring-netflix-oss-microservices\gateway\target\classes\com\spring\microservices\edgeserver\EdgeServerApplication.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:13:39.403
+!MESSAGE statement-service Files changed: [E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\statementservice\StatementServiceApplication.class, E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\api\StatementController.class, E:\spring-netflix-oss-microservices\statement-service\target\classes\com\spring\microservices\models\Statement.class]
+
+!ENTRY org.infinitest.eclipse 1 0 2017-11-20 11:13:43.013
+!MESSAGE gateway Files changed: [E:\spring-netflix-oss-microservices\gateway\target\classes\com\spring\microservices\edgeserver\EdgeServerApplication.class]
